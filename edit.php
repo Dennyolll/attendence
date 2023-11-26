@@ -54,6 +54,7 @@ else{
             <input type="text" class="form-control" id="phone" value="<?php echo $attendee['contactnumber'] ?>" name="phone" aria-describedby="phoneHelp">
             <small id="phoneHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
         </div>
+        <a href="viewrecords.php" class="btn btn-dafeult"> class="btn btn-default btn-block">Back to List</a>
         <button type="submit" name="submit" class="btn btn-success btn-block">Save Changes</button>
     </form>
     <?php } ?>
