@@ -30,7 +30,7 @@ class user{
         }
     }
 
-    public function getUser($username,$passwor){
+    public function getUser($username,$password){
         try{
             $sql = "SELECT * FROM users where username = :username AND password = :password";
             $stmt = $this->db->prepare($sql);
