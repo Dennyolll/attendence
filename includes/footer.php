@@ -1,11 +1,11 @@
 
 
+<div id="footer" class ="p-3 bg-primary text-white fixed-bottom">
 
-<div>
-
-    <?php echo 'Copyrigth ' . date('y') ?>
+<p class="text-center">Copyrigth &copy; - IT Conference Attendance System <?php echo date('Y'); ?> </p>
 
 </div>
+
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
